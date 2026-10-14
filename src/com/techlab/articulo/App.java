@@ -66,6 +66,11 @@ public class App {
                     System.out.println("\nError: la opción ingresada no es válida.");
             }
 
+            // Permite leer el resultado antes de mostrar nuevamente el menú.
+            if (opcion != 0) {
+                pausar(scanner);
+            }
+
         } while (opcion != 0);
 
         scanner.close();
@@ -339,5 +344,10 @@ public class App {
 
             System.out.println("Error: el texto no puede estar vacío.");
         }
+    }
+    public static void pausar(Scanner scanner) {
+        System.out.println();
+        System.out.print("Presioná Enter para volver al menú...");
+        scanner.nextLine();
     }
 }
