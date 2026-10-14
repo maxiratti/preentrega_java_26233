@@ -51,11 +51,3 @@ Se controlan opciones y tipos inexistentes, códigos duplicados, textos vacíos,
 10. Eliminar 100 y comprobar que ya no aparece.
 11. Probar letras como opción, tipo 3, categoría 99, nombre vacío, precio -1/NaN/Infinity, garantía y vencimiento negativos. Debe solicitar nuevamente el dato que no es válido.
 12. Salir con 0.
-
-## Conceptos para explicar
-
-Encapsulamiento: atributos private y getters/setters. Herencia: las subclases utilizan extends y super para reutilizar el constructor. Abstracción: Articulo define lo común y obliga a implementar dos métodos. Polimorfismo: ArrayList<Articulo> contiene ambos tipos; imprimir cada objeto ejecuta su toString real. Sobrescritura: @Override en los métodos de las subclases. Colaboración: cada Articulo referencia una Categoria. instanceof y casting permiten modificar los atributos específicos.
-
-Los setters de este ejemplo son accesores sencillos; la validación de entradas se realiza en App, siguiendo el código de clase. No se incluyen stock, pedidos, interfaces, base de datos, persistencia ni interfaz gráfica. Al cerrar se pierden los artículos ingresados. Los días para vencimiento son un número ingresado manualmente, no una fecha que se actualiza sola.
-
-La consigna pide comprender y desarrollar el proyecto: revisar cada clase y poder explicar su función antes de presentarlo.
