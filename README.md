@@ -1,6 +1,6 @@
 # Preentrega: sistema de gestión de artículos
 
-Proyecto `herencia_polimorfismo_tostring`, por MAXIMILIANO CARLOS RATTI. Aplicación Java por consola, con datos en memoria.
+Proyecto `herencia_polimorfismo_tostring`, por **MAXIMILIANO CARLOS RATTI** en el marco del curso de Backend con JAVA desde la Agencia de Habilidades para el Futuro del Ministerio de Educación de la Ciudad, **Talento Tech**. Aplicación Java por consola, con datos en memoria.
 
 ## Ejecución en VS Code
 
